@@ -105,7 +105,7 @@ $categoryResult = $conn->query($categorySql);
                 <div class="col-lg-12">
                     <h1>ระบบจัดการเอกสารที่เรียบง่าย</h1>
                     <p class="lead">จัดเก็บ ติดตาม และจัดการเอกสารสำคัญทั้งหมดของคุณในที่เดียว</p>
-                    <a href="#" class="btn btn-success">เข้าสู่ระบบจัดการเอกสาร</a>
+                    <a href="<?php echo $admin_url; ?>" class="btn btn-success">เข้าสู่ระบบจัดการเอกสาร</a>
                 </div>
             </div>
         </div>
